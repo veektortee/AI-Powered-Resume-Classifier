@@ -1,0 +1,18 @@
+# 📁 Data & Artifacts
+archive/
+archive.zip
+resume_dataset.csv
+
+# 🧪 Python cache
+__pycache__/
+*.pyc
+
+# 🤖 Virtual environments
+venv/
+tf-env/
+
+# 📄 Model artifacts (if any later)
+*.h5
+*.pkl
+models/resume_bert_model/
+models/label_encoder.pkl/
