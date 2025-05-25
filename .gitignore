@@ -13,6 +13,7 @@ tf-env/
 
 # 📄 Model artifacts (if any later)
 *.h5
+*.keras
 *.pkl
-models/resume_bert_model/
-models/label_encoder.pkl/
+resume_classifier_model.keras
+label_encoder.pkl
