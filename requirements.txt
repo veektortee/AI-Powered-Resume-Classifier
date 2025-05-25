@@ -1,6 +1,13 @@
 tensorflow==2.12.0
 keras==2.12.0
 transformers==4.38.2
+pdfminer.six
+pdfminer
+pytesseract
+tesseract
+tesseract-ocr
+nltk
 pandas
 scikit-learn
-google-cloud-storage
+pillow
+Flask
