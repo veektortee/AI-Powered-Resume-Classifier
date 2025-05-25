@@ -4,7 +4,7 @@ This project showcases a **resume classification system** fine-tuned on preproce
 
 ---
 
-## 🚀 Key Features
+## Key Features
 - **Dataset**: Preprocessed data adapted from a GitHub user’s repository.  
 - **Model**: Fine-tuned `BERT` for multiclass text classification.  
 - **Preprocessing**:  
@@ -25,7 +25,7 @@ This project showcases a **resume classification system** fine-tuned on preproce
 
 ---
 
-## 🏷️ Supported Categories (43)
+## Supported Categories (43)
 - Accountant  
 - Advocate  
 - Arts  
@@ -72,7 +72,7 @@ This project showcases a **resume classification system** fine-tuned on preproce
 
 ---
 
-## 🛠️ Setup
+## Setup
 ### Prerequisites
 - Python 3.8+
 - Refer to `requirements.txt` for full list of dependencies.
