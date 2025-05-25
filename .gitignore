@@ -1,7 +1,5 @@
 # 📁 Data & Artifacts
-archive/
-archive.zip
-resume_dataset.csv
+Preprocessed_Data.txt
 
 # 🧪 Python cache
 __pycache__/
