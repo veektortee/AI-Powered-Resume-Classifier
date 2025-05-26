@@ -1,7 +1,6 @@
 # Resume Classification with Fine-Tuned BERT
 
-This project showcases a **resume classification system** fine-tuned on preprocessed data provided by [Noran Mohamed](https://github.com/noran-mohamed/Resume-Classification-Dataset). It classifies resumes into predefined categories using a **Streamlit app** for user interaction.
-
+This project showcases a **resume classification system** powered by a fine-tuned BERT model, built on a preprocessed dataset provided by [Noran Mohamed](https://github.com/noran-mohamed/Resume-Classification-Dataset). Designed for scalability and real-world application, the system classifies resumes into one of **43 distinct categories**. It features an interactive *Streamlit app* for seamless user interaction, enabling quick resume uploads and instant predictions.
 ---
 
 ## Key Features
@@ -86,26 +85,26 @@ pip install -r requirements.txt
 ---
 
 ## File Structure
-•	app.py: Streamlit app for live resume classification.
-•	preprocess_extraction.py: Extracts and cleans text from uploaded resumes.
-•	predict.py: Standalone script for classification.
-•	label_encoder.pkl: Label encoder used for class mapping.
-•	resume_classifier_model.keras: Fine-tuned BERT model checkpoint.
-•	requirements.txt: All necessary dependencies.
+- app.py: Streamlit app for live resume classification.
+-	preprocess_extraction.py: Extracts and cleans text from uploaded resumes.
+-	predict.py: Standalone script for classification.
+- label_encoder.pkl: Label encoder used for class mapping.
+-	resume_classifier_model.keras: Fine-tuned BERT model checkpoint.
+-	requirements.txt: All necessary dependencies.
 
 ---
 
 ## Challenges
-•	Had to downgrade Colab environment for compatibility with specific library versions (CUDA 11.8 and cuDNN 8.6).
-•	Managed large model size by saving externally.
-•	Applied layer-wise freezing/unfreezing to optimize fine-tuning.
+- Had to downgrade Colab environment for compatibility with specific library versions (CUDA 11.8 and cuDNN 8.6).
+- Managed large model size by saving externally.
+- Applied layer-wise freezing/unfreezing to optimize fine-tuning.
 
 ---
 
 ## Credits
-. Dataset courtesy of [noran-mohamed]([url](https://github.com/noran-mohamed/Resume-Classification-Dataset))
-. Preprocessing and fine-tuning logic designed and optimized for resume classification.
-. Hugging Face Transformers for pretrained BERT models.
+- Dataset courtesy of [Noran Mohamed](https://github.com/noran-mohamed/Resume-Classification-Dataset)
+- Preprocessing and fine-tuning logic designed and optimized for resume classification.
+- Hugging Face Transformers for pretrained BERT models.
 
 ---
 
@@ -116,13 +115,13 @@ Upload your resume (.pdf, .png, .jpg) and instantly get the predicted category.
 ---
 
 ## Results
-. Achieved 97% training accuracy and 91% validation accuracy.
-. Handled over 12,000 preprocessed resumes.
-. Balanced class weights to manage imbalance.
+- Achieved 97% training accuracy and 91% validation accuracy.
+- Handled over 12,000 preprocessed resumes.
+- Balanced class weights to manage imbalance.
 
 ---
 
 ## Notes
-•	The model supports classification for 43 classes only. Resumes outside these categories will not be accurately classified.
-•	OCR and text extraction are included to handle image and PDF resumes.
-•	Model and label encoder are saved externally and not pushed to the repository.
+- The model supports classification for 43 classes only. Resumes outside these categories will not be accurately classified.
+- OCR and text extraction are included to handle image and PDF resumes.
+- Model and label encoder are saved externally and not pushed to the repository.
