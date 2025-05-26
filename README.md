@@ -1,6 +1,6 @@
 # Resume Classification with Fine-Tuned BERT
 
-This project presents a resume classification system powered by a fine-tuned BERT model, built on a preprocessed dataset provided by [Noran Mohamed](https://github.com/noran-mohamed/Resume-Classification-Dataset). Designed for scalability and real-world application, the system classifies resumes into one of 43 distinct categories. It features an interactive Streamlit app for seamless user interaction, enabling quick resume uploads and instant predictions.
+This project presents a resume classification system powered by a fine-tuned BERT model, built on a preprocessed dataset provided by a GitHub user [Noran Mohamed](https://github.com/noran-mohamed/Resume-Classification-Dataset). Designed for scalability and real-world application, the system classifies resumes into one of 43 distinct categories. It features an interactive Streamlit app for seamless user interaction, enabling quick resume uploads and instant predictions.
 ---
 
 ## Key Features
@@ -8,8 +8,6 @@ This project presents a resume classification system powered by a fine-tuned BER
 - **Model**: Fine-tuned `BERT` for multiclass text classification.  
 - **Preprocessing**:  
   - Cleaned text from provided data.  
-  - Augmentation with GPT-2, synonym replacement, and random deletion.  
-  - Applied sliding window tokenization for long text inputs.  
 - **Training**:  
   - Initial phase: train classification head only.  
   - Fine-tuning phase: unfreeze BERT layers for deeper learning.  
@@ -79,7 +77,7 @@ This project presents a resume classification system powered by a fine-tuned BER
 ### Installation
 ```bash
 git clone <your-repo-link>
-cd resume-classifier
+cd AI-Powered-Resume-Classifier
 pip install -r requirements.txt
 ```
 ---
