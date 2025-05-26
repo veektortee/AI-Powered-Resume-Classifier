@@ -76,7 +76,7 @@ This project presents a robust resume classification system powered by a fine-tu
 
 ### Installation
 ```bash
-git clone <[your-repo-link](https://github.com/veektortee/AI-Powered-Resume-Classifier.git)>
+git clone <https://github.com/veektortee/AI-Powered-Resume-Classifier.git>
 cd AI-Powered-Resume-Classifier
 pip install -r requirements.txt
 ```
