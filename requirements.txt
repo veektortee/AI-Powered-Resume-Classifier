@@ -11,3 +11,7 @@ pandas
 scikit-learn
 pillow
 Flask
+streamlit
+seaborn
+matplotlib
+torch
