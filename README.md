@@ -1,17 +1,17 @@
 # Resume Classification with Fine-Tuned BERT
 
-This project presents a resume classification system powered by a fine-tuned BERT model, built on a preprocessed dataset provided by a GitHub user [Noran Mohamed](https://github.com/noran-mohamed/Resume-Classification-Dataset). Designed for scalability and real-world application, the system classifies resumes into one of 43 distinct categories. It features an interactive Streamlit app for seamless user interaction, enabling quick resume uploads and instant predictions.
+This project presents a robust resume classification system powered by a fine-tuned BERT model. Designed for scalability and real-world application, the system classifies resumes into one of 43 distinct categories. It features an interactive Streamlit app for seamless user interaction, enabling quick resume uploads and instant predictions.
 ---
 
 ## Key Features
-- **Dataset**: Preprocessed data adapted from a GitHub user’s repository.  
+- **Dataset**: Preprocessed data adapted from a [GitHub user’s repository](https://github.com/noran-mohamed/Resume-Classification-Dataset).  
 - **Model**: Fine-tuned `BERT` for multiclass text classification.  
 - **Preprocessing**:  
   - Cleaned text from provided data.  
 - **Training**:  
   - Initial phase: train classification head only.  
   - Fine-tuning phase: unfreeze BERT layers for deeper learning.  
-  - Achieved ~96% train accuracy and ~90% validation accuracy.  
+  - Achieved ~97% train accuracy and ~91% validation accuracy.  
 - **Classification**:  
   - Supports **43 predefined resume categories**.  
   - Resumes outside these categories will not be accurately classified.  
@@ -76,7 +76,7 @@ This project presents a resume classification system powered by a fine-tuned BER
 
 ### Installation
 ```bash
-git clone <your-repo-link>
+git clone <[your-repo-link](https://github.com/veektortee/AI-Powered-Resume-Classifier.git)>
 cd AI-Powered-Resume-Classifier
 pip install -r requirements.txt
 ```
