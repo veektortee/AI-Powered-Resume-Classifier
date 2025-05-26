@@ -1,6 +1,6 @@
 # Resume Classification with Fine-Tuned BERT
 
-This project showcases a **resume classification system** fine-tuned on preprocessed data provided by (https://github.com/noran-mohamed/Resume-Classification-Dataset). It classifies resumes into predefined categories using a **Streamlit app** for user interaction.
+This project showcases a **resume classification system** fine-tuned on preprocessed data provided by [Noran Mohamed](https://github.com/noran-mohamed/Resume-Classification-Dataset). It classifies resumes into predefined categories using a **Streamlit app** for user interaction.
 
 ---
 
