@@ -108,6 +108,9 @@ pip install -r requirements.txt
 
 ## Example Usage
 ### Streamlit App:
+```bash
+streamlit run streamlit_app.py
+```
 Upload your resume (.pdf, .png, .jpg) and instantly get the predicted category.
 
 ---
