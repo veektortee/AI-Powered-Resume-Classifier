@@ -4,7 +4,7 @@ This project presents a robust resume classification system powered by a fine-tu
 ---
 
 **Demo Video**
-- Watch the demo [here](https://www.youtube.com/watch?v=ZmNpgDxqivc)
+- Watch the demo [here](https://www.youtube.com/watch?v=ZmNpgDxqivc).
 
 ## Key Features
 - **Dataset**: Preprocessed data adapted from a [GitHub user’s repository](https://github.com/noran-mohamed/Resume-Classification-Dataset).  
