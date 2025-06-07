@@ -3,6 +3,9 @@
 This project presents a robust resume classification system powered by a fine-tuned BERT model. Designed for scalability and real-world application, the system classifies resumes into one of 43 distinct categories. It features an interactive Streamlit app for seamless user interaction, enabling quick resume uploads and instant predictions.
 ---
 
+**Demo Video**
+Watch the demo [here](https://www.youtube.com/watch?v=ZmNpgDxqivc)
+
 ## Key Features
 - **Dataset**: Preprocessed data adapted from a [GitHub user’s repository](https://github.com/noran-mohamed/Resume-Classification-Dataset).  
 - **Model**: Fine-tuned `BERT` for multiclass text classification.  
