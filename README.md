@@ -130,3 +130,9 @@ streamlit run app.py
 - The model supports classification for 43 classes only. Resumes outside these categories will not be accurately classified.
 - OCR and text extraction are included to handle image and PDF resumes.
 - Model and label encoder are saved externally and not pushed to the repository. You may need to recreate my notebook to get the same model and label encoder as mine.
+
+---
+
+## License
+
+This project is licensed under the Apache License 2.0. See the `LICENSE` file for details.
