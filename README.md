@@ -1,6 +1,6 @@
 # Resume Classification with Fine-Tuned BERT
 
-**This project presents a robust resume classification system powered by a fine-tuned BERT model. Designed for scalability and real-world application, the system classifies resumes into one of 43 distinct categories. It features an interactive Streamlit app for seamless user interaction, enabling quick resume uploads and instant predictions.**
+This project presents a robust resume classification system powered by a fine-tuned BERT model. Designed for scalability and real-world application, the system classifies resumes into one of 43 distinct categories. It features an interactive Streamlit app for seamless user interaction, enabling quick resume uploads and instant predictions.
 ---
 
 **Demo Video**
